@@ -1,15 +1,13 @@
-# My Project
-
-This is a project utilizing Spring Boot and PostgreSQL.
-
+## API documentation
+- [https://documenter.getpostman.com/view/16381907/2s93sgVVCy](https://documenter.getpostman.com/view/26303872/2s9XxvSuX6)
+  
 ## Requirements
 
 - Java Development Kit (JDK) 11 or later
 - Gradle 6.0 or later
 - PostgreSQL 9.6 or later
  
-## API documentation
-- [https://documenter.getpostman.com/view/16381907/2s93sgVVCy](https://documenter.getpostman.com/view/26303872/2s9XxvSuX6)
+
 
 ## Dependencies
 
@@ -36,3 +34,7 @@ Database connection details are specified in the `src/main/resources/application
 ### Java and Gradle Installation
 
 Ensure that Java and Gradle are installed correctly.
+
+### Running the Application
+
+./gradlew bootRun
